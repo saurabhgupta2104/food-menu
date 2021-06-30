@@ -15,6 +15,26 @@
 ## Endpoints: <br>
 
 <ol>
-  <li> <strong> /api/categories </strong> - To fetch list of all categories of food. </li>
-  <li> <strong> /api/categories/:id </strong> - To fetch list of all restaurants serving selected category of food. </li>
+  <li> <strong> /api/categories </strong> - To fetch list of all categories of food. <br>
+    Example Value: <br>
+    <code> 
+      [{
+        id: 1,
+        name: "biryani",
+        image: "biryani.jpg"
+      }]
+    </code>
+  </li>
+  <li> <strong> /api/categories/:id </strong> - To fetch list of all restaurants serving selected category of food. </br>
+  Example Value: <br>
+    <code> 
+      [{
+        id: 1,
+        name: "Aroma House",
+        image: "biryani.jpg",
+        open: true
+      }]
+    </code>
+  
+  </li>
 </ol>
