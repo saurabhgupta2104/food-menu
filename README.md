@@ -33,6 +33,11 @@
         count: 5
       }]
     </code> </br> </br>
+    Model: </br>
+    <em> id </em> - category id </br>
+    <em> name </em> - category name </br>
+    <em> image </em> - imag src of category </br>
+    <em> count </em> - count of restaurants serving that category </br>  </br>
   </li>
   <li> <strong> /api/categories/:id </strong> - To fetch list of all restaurants serving selected category of food. </br>
   Example Value: <br>
@@ -44,21 +49,30 @@
         open: true,
         rating: 3.0
       }]
-    </code>
-  
+    </code> </br> </br>
+    Model: </br>
+    <em> id </em> - restaurant id </br>
+    <em> name </em> - restaurant name </br>
+    <em> image </em> - imag src of category selected </br>
+    <em> open </em> - restaurant's open status </br>
+    <em> rating </em> - restaurant's rating </br>
   </li>
 </ol>
 
-## Sample Output on browser: </br>
+## Sample Output: </br>
 
 <ul>
-  <li> Categories (1st Page): </br> </br>
+  <li> Categories (1st Page): </br> 
+  Description: <br>
+  The first page of the website should show all categories fetched from the api ( <em> /api/categories </em> ) as shown in the below image.
   <p>
     <img src="SampleOutput/categories.PNG" width="700" height="350"/>
   </p>
   </li>
   </br>
-  <li> After clicking on Brilliant Biryanis category (2nd Page): </br> </br>
+  <li> Restaurants serving Biryani(2nd Page): </br> 
+   Description: <br>
+   On click event of any category e.g. Brilliant Biryanis, the website should show all restaurants serving biryanis fetched from the api ( <em> /api/categories/:id </em> ) as      shown in the below image. 
   <p>
     <img src="SampleOutput/restaurants.PNG" width="700" height="350"/>
   </p>
