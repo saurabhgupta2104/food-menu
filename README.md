@@ -53,10 +53,14 @@
 
 <ul>
   <li> Categories (1st Page): </br> </br>
-  ![Categories](https://github.com/saurabhgupta2104/food-menu/blob/main/SampleOutput/categories.PNG)
+  <p>
+    <img src="SampleOutput/categories.PNG" width="700" height="350"/>
+  </p>
   </li>
   </br>
-  <li> Restaurants Serving Biryani (2nd Page): </br> </br>
-  ![Restaurants Serving Biryani](https://github.com/saurabhgupta2104/food-menu/blob/main/SampleOutput/restaurants.PNG)
+  <li> After clicking on Brilliant Biryanis category (2nd Page): </br> </br>
+  <p>
+    <img src="SampleOutput/restaurants.PNG" width="700" height="350"/>
+  </p>
   </li>
 </ul>
