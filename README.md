@@ -6,6 +6,14 @@
   <li> NodeJS - You can install nodeJS from https://nodejs.org/en/download/ </li>
 </ul>
 
+
+## Project SetUp: <br>
+
+<ul> 
+  <li> Clone the project </li>
+  <li> Open cmd in the root folder of the project and run <code> npm i </code> to install all the dependencies. </li>
+</ul>
+
 ## How to start the server: <br>
 
 <ul>
