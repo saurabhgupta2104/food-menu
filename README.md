@@ -29,7 +29,8 @@
       [{
         id: 1,
         name: "biryani",
-        image: "biryani.jpg"
+        image: "biryani.jpg",
+        count: 5
       }]
     </code>
   </li>
@@ -40,7 +41,8 @@
         id: 1,
         name: "Aroma House",
         image: "biryani.jpg",
-        open: true
+        open: true,
+        rating: 3.0
       }]
     </code>
   
