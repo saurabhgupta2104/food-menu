@@ -32,7 +32,7 @@
         image: "biryani.jpg",
         count: 5
       }]
-    </code>
+    </code> </br> </br>
   </li>
   <li> <strong> /api/categories/:id </strong> - To fetch list of all restaurants serving selected category of food. </br>
   Example Value: <br>
@@ -48,3 +48,15 @@
   
   </li>
 </ol>
+
+## Sample Output on browser: </br>
+
+<ul>
+  <li> Categories (1st Page): </br> </br>
+  ![Categories](https://github.com/saurabhgupta2104/food-menu/blob/main/SampleOutput/categories.PNG)
+  </li>
+  </br>
+  <li> Restaurants Serving Biryani (2nd Page): </br> </br>
+  ![Restaurants Serving Biryani](https://github.com/saurabhgupta2104/food-menu/blob/main/SampleOutput/restaurants.PNG)
+  </li>
+</ul>
